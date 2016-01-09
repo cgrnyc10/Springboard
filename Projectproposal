@@ -1,0 +1,15 @@
+Using Weather Forecasts of High Volume Trading Cities to Predict Global Stock Market Performance:
+
+What is the problem you want to solve?
+We are only beginning to understand just how much weather affects our mindset. While fascinating on an individual level, I’m more interested in the macro effect. Stock markets, in so much that they are a measurement of human behavior, are a great testing ground for macro behavioral ideas.   
+Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+Clients would primarily be banks or professional traders, but retail traders could also benefit from the knowledge. The outcome would be a trading strategy built around weather.
+What data are you going to use for this?
+Historic global stock market data for the top 2 global markets: London, New York as brought to bear through the indexes such as the S&P and Dow Jone and index funds such as Vanguard Total Stock Market fund 
+Historic global weather data from Dark Sky API
+How will you acquire this data?
+Dark Sky API, Historic stock charts
+In brief, outline your approach to solving this problem (knowing that this might change later).
+Using driver analysis, I will figure out the effect that different events have on index performance, starting with known drivers and comparing that to random drivers and seeing just what effect weather (as brought to bear through a series of measurements available in the API) also has. Ideally, the analysis will be able to predict future performance. 
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+Codebook and some sort of semi interactive data visualization of the results and, ideally, an ongoing predictor of performance based on forecasts 
