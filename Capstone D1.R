@@ -32,7 +32,7 @@ nines <- paste(csup, niner, sep = "T")
 
 # Step 3 of URL Creator: Define and add the Dark Star API URL
 url <- "https://api.forecast.io/forecast/33fa9e8496bc233758e25008e4bb7847/40.7067692,-74.0112509,"
-urls <- paste(url,nines, sep = "")
+
 
 # Create empty data frames to populate with data from API 
 url_test = NULL
